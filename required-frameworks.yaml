@@ -17,7 +17,7 @@ RequiredPackages:
   type: optional
 
 MatchingPackages:
-- name: Carbon.WebApplication
+- name: StackExchange.Redis
   must: Carbon.Redis
 - name: Deneme
   must: Carbon.Redis
