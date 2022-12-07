@@ -1,0 +1,21 @@
+RequiredPackages:
+- name: Carbon.WebApplication
+  url: github.com/kocdigital/Carbon/blob/master/Carbon.WebApplication/Carbon.WebApplication.csproj
+  minVersion: 4.0.0
+  type: required
+- name: Carbon.MassTransit
+  url: github.com/kocdigital/Carbon/blob/master/Carbon.MassTransit/Carbon.MassTransit.csproj
+  minVersion: 3.5.0
+  type: required
+- name: Carbon.PagedList
+  url: github.com/kocdigital/Carbon/blob/master/Carbon.PagedList/Carbon.PagedList.csproj
+  minVersion: 1.1.1
+  type: optional
+- name: Optional.Framework
+  url: github.com/kocdigital/Carbon/blob/master/Carbon.PagedList/Carbon.PagedList.csproj
+  minVersion: 1.1.1
+  type: optional
+
+MatchingPackages:
+- name: StackExchange.Redis
+  must: Carbon.Redis
