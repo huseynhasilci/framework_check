@@ -19,3 +19,5 @@ RequiredPackages:
 MatchingPackages:
 - name: StackExchange.Redis
   must: Carbon.Redis
+- name: Deneme
+  must: Carbon.Redis
