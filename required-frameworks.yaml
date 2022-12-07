@@ -9,7 +9,7 @@ RequiredPackages:
   type: required
 - name: Carbon.PagedList
   url: github.com/kocdigital/Carbon/blob/master/Carbon.PagedList/Carbon.PagedList.csproj
-  minVersion: 1.1.2
+  minVersion: 1.1.1
   type: optional
 - name: Optional.Framework
   url: github.com/kocdigital/Carbon/blob/master/Carbon.PagedList/Carbon.PagedList.csproj
